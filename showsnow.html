@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Book Now</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+
+    <body class="movie-bg">
+        <div class="header">          
+            <ul>
+                <div id="logo">
+                    <a style="float:left" href="index.html"><img src="images/logo.jpeg"></a>
+                    <li><h3>CineTicket</h3></li>
+                </div>
+                <div id="nav-bar">
+                    <li class="nav"><a href="index.html"><b>Home</b></a></li>
+                    <li class="nav page"><a href="showsnow.html"><b>Movies</b></a></li>
+                    <li class="nav"><a href="booknow.html"><b>Bookings</b></a></li>
+                    <li class="nav user"><a href="signup.html"><i class='fas fa-user-circle'></i></a></li>
+                </div>
+            </ul>
+        </div>
+        <section class="body-container">
+            <section class="main-container">
+                <div class="sidebar">
+                    <form action="#">
+                        <div class="sidebar-groups">
+                            <h3 class="sg-title">Categories</h3>
+                            <input type="checkbox" id="adventure" name="adventure" value="adventure">
+                            <label for="adventure">Adventure</label><br>
+                            <input type="checkbox" id="action" name="action" value="action">
+                            <label for="action">Action</label><br>
+                            <input type="checkbox" id="animation" name="animation" value="animation">
+                            <label for="animation">Animation</label><br>
+                            <input type="checkbox" id="comedy" name="comedy" value="comedy">
+                            <label for="comedy">Comedy</label><br>
+                            <input type="checkbox" id="science" name="science" value="science">
+                            <label for="science">Science Fiction</label><br>
+                            <input type="checkbox" id="thriller" name="thriller" value="thriller">
+                            <label for="thriller">Thriller</label><br>
+                            <input type="checkbox" id="history" name="history" value="history">
+                            <label for="history">History</label><br>
+                            <input type="checkbox" id="documentary" name="documentary" value="documentary">
+                            <label for="documentary">Documentary</label><br>
+                            <input type="checkbox" id="fantasy" name="fantasy" value="fantasy">
+                            <label for="fantasy">Fantasy</label><br>
+                        </div>
+                        <div class="sidebar-groups">
+                            <h3 class="sg-title">Language</h3>
+                            <input type="checkbox" id="english" name="english" value="english">
+                            <label for="english">English</label><br>
+                            <input type="checkbox" id="tamil" name="tamil" value="tamil">
+                            <label for="tamil">Tamil</label><br>
+                            <input type="checkbox" id="hindi" name="hindi" value="hindi">
+                            <label for="hindi">Hindi</label><br>
+                            <input type="checkbox" id="malayalam" name="malayalam" value="malayalam">
+                            <label for="malayalam">Malayalam</label><br>
+                            <input type="checkbox" id="telugu" name="telugu" value="telugu">
+                            <label for="telugu">Telugu</label><br>
+                        </div>
+                        <div class="sidebar-groups">
+                            <h3 class="sg-title">Time</h3>
+                            <input type="radio" id="morning" name="time" value="morning">
+                            <label for="morning">Morning</label><br>
+                            <input type="radio" id="night" name="time" value="night">
+                            <label for="night">Night</label><br>
+                        </div>
+                        <div class="sidebar-groups">
+                            <a href="#" class="btn-l btn">Apply Filters</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="movies-container">
+                    <div class="upcoming-img-box">
+                        <img src="images/upcoming.jpg" alt="">
+                        <p class="upcoming-title">Upcoming Movie</p>
+                        <div class="buttons">
+                            <a href="booknow.html" class="btn">Book Now</a>
+                            <a href="#" class="btn-alt btn">Play Trailer</a>
+                        </div>
+                    </div>
+                    <div class="current-movies">
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/ps2.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">Ponniyin Selvan 2</h3>
+                            <p class="screen-name">U</p>
+                            <p class="screen-name">Tamil,Telugu,Hindi,Malayalam</p>
+                            <div class="booking">
+                                <h2 class="time">11:45 AM</h2>
+                                <h2 class="time">03:15 PM</h2>
+                                <h2 class="time">06:30 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/gotg.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">Guardians of the Galaxy</h3>
+                            <p class="screen-name">UA</p>
+                            <p class="screen-name">English,Tamil,Telugu,Hindi</p>
+                            <div class="booking-time">
+                                <h2 class="time">11:35 AM</h2>
+                                <h2 class="time">10:55 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/edr.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">Evil Dead Rise</h3>
+                            <p class="screen-name">A</p>
+                            <p class="screen-name">English</p>
+                            <div class="booking">
+                                <h2 class="time">10:00 AM</h2>
+                                <h2 class="time">04:00 PM</h2>
+                                <h2 class="time">11:00 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/fx.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">Fast X</h3>
+                            <p class="screen-name">UA</p>
+                            <p class="screen-name">English,Tamil,Telugu,Hindi</p>
+                            <div class="booking">
+                                <h2 class="time">10:20 AM</h2>
+                                <h2 class="time">01:30 PM</h2>
+                                <h2 class="time">04:50 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/viduthalai.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">Viduthalai</h3>
+                            <p class="screen-name">A</p>
+                            <p class="screen-name">Tamil</p>
+                            <div class="booking">
+                                <h2 class="time">09:00 AM</h2>
+                                <h2 class="time">12:15 PM</h2>
+                                <h2 class="time">03:30 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/mario.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">The Super Mario Bros</h3>
+                            <p class="screen-name">U</p>
+                            <p class="screen-name">English,Hindi</p>
+                            <div class="booking-time">
+                                <h2 class="time">03:40 PM</h2>
+                                <h2 class="time">07:05 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/tks.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">The Kerala Story</h3>
+                            <p class="screen-name">A</p>
+                            <p class="screen-name">Tamil,Telugu,Hindi,Malayalam</p>
+                            <div class="booking">
+                                <h2 class="time">10:00 AM</h2>
+                                <h2 class="time">01:00 PM</h2>
+                                <h2 class="time">07:00 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/suzume.jpeg" alt="">
+                            </div>
+                            <h3 class="movie-title">Suzume</h3>
+                            <p class="screen-name">UA</p>
+                            <p class="screen-name">Japanese,Hindi</p>
+                            <div class="booking-time">
+                                <h2 class="time">04:15 PM</h2>
+                                <h2 class="time">10:45 PM</h2>
+                            </div>
+                        </div>
+                        <div class="current-movie">
+                            <div class="cm-img-box">
+                                <img src="images/1947.jpg" alt="">
+                            </div>
+                            <h3 class="movie-title">August 16, 1947</h3>
+                            <p class="screen-name">UA</p>
+                            <p class="screen-name">Tamil,Telugu,Hindi,Malayalam</p>
+                            <div class="booking">
+                                <h2 class="time">03:45 PM</h2>
+                                <h2 class="time">07:30 PM</h2>
+                                <h2 class="time">10:40 PM</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="footer">
+            <div class="footer-logo">
+                <img src="images/logo.jpeg"><h3>CineTicket</h3>
+            </div>
+            <p>Copyright 2023 <i class="fa fa-copyright"></i> ABC Entertainment Pvt. Ltd. All Rights Reserved.</p>
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                
+            </div>
+
+        </section>
+        
+    </body>
+</html>
